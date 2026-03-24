@@ -1,1 +1,80 @@
+html {
+  font-size: 16px;
+}
+/* WAVE BACKGROUNDS — HEADER + LIGHT + DARK (20%) */
+.bd-header-wave,
+.wave-light-20,
+.wave-dark-20{position:relative}
 
+.bd-header-wave::before,
+.wave-light-20::before,
+.wave-dark-20::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-repeat:repeat;
+  background-size:250px auto;
+  opacity:.2;
+  pointer-events:none;
+}
+
+.bd-header-wave::before,
+.wave-light-20::before{
+  background-image:url('/wp-content/uploads/2026/02/blue-wide-small.avif');
+  background-position:top left;
+}
+
+.wave-dark-20::before{
+  background-image:url('/wp-content/uploads/2026/02/white-wide-small.avif');
+  background-position:center top;
+}
+
+.bd-header-wave>*,
+.wave-light-20>*,
+.wave-dark-20>*{position:relative;z-index:1}
+
+.wave-light-20,
+.wave-dark-20{border-top:.75px solid #2EA3F2;border-bottom:.75px solid #2EA3F2}
+/* END WAVE BACKGROUNDS */
+
+/* Home Column: Gradient + Shadow + Padding */
+.ms-home-gradient-card{
+  background: linear-gradient(
+    180deg,
+    rgba(46, 163, 242, 0.4) 0%,
+    rgba(46, 163, 242, 0.65) 40%,
+    rgba(99, 233, 95, 0.5) 91%
+  );
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+/* Link color inside card */
+.ms-home-gradient-card a{
+  color:#333 !important;
+}
+
+/* Soft shadow utility */
+.ms-shadow-soft{
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+/* TEXT ALIGNMENT */
+.lt { text-align: left; }
+.ct { text-align: center; }
+.rt { text-align: right; }
+
+.tu { text-transform: uppercase; }
+
+.t9 { font-weight: 900; }
+.t8 { font-weight: 800; }
+.t7 { font-weight: 700; }
+.t6 { font-weight: 600; }
+.t5 { font-weight: 500; }
+.t4 { font-weight: 400; }
+.t3 { font-weight: 300; }
+.t2 { font-weight: 200; }
+.t1 { font-weight: 100; }
+
+h1.fff, h2.fff, h3.fff, h4.fff, h5.fff, h6.fff, p.fff, .fff, .fff a, .fff a:visited, .fff a:hover, .fff a:active { color: #fff !important; }
+
+.ds {text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);}
