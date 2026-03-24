@@ -20,12 +20,12 @@ html {
 
 .bd-header-wave::before,
 .wave-light-20::before{
-  background-image:url('/wp-content/uploads/2026/02/blue-wide-small.avif');
+  background-image:url('https://mauisnorkeling.com/wp-content/uploads/2026/02/blue-wide-small.avif');
   background-position:top left;
 }
 
 .wave-dark-20::before{
-  background-image:url('/wp-content/uploads/2026/02/white-wide-small.avif');
+  background-image:url('https://mauisnorkeling.com/wp-content/uploads/2026/02/white-wide-small.avif');
   background-position:center top;
 }
 
